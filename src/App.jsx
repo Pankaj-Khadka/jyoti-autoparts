@@ -1,5 +1,11 @@
 import "./App.css";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Products from "./components/Products";
+import Brands from "./components/Brands";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -7,8 +13,12 @@ function App() {
     <div>
       <Header />
       <main>
-        <h1>Jyoti Autoparts</h1>
-        <p>Quality Auto Parts You Can Trust</p>
+        <Hero />
+        <About />
+        <Products />
+        <Brands />
+        <WhyChooseUs />
+        <Contact />
       </main>
       <Footer />
     </div>

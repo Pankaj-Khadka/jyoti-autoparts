@@ -1,3 +1,5 @@
+import companyConfig from "../config/companyConfig";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -19,7 +21,7 @@ function Footer() {
           <a href="#contact">Contact</a>
         </div>
 
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3>Our Products</h3>
           <p>Piston</p>
           <p>Ring</p>
@@ -28,13 +30,21 @@ function Footer() {
           <p>Gasket</p>
           <p>Kinetic Rod</p>
           <p>Block</p>
+        </div> */}
+
+        <div className="footer-section">
+          <h3>Our Products</h3>
+
+          {companyConfig.products.map((product) => (
+            <p key={product}>{product}</p>
+          ))}
         </div>
 
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>📞 +91 XXXXX XXXXX</p>
-          <p>✉️ jyotiautoparts@gmail.com</p>
-          <p>📍 India</p>
+          <p>📞 {companyConfig.phone}</p>
+          <p>✉️ {companyConfig.email}</p>
+          <p>📍{companyConfig.address}</p>
         </div>
 
       </div>
