@@ -7,6 +7,7 @@ import Brands from "./components/Brands";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Hero />
         <About />
         <Products />
-        <Brands />
+        {/* <Brands /> */}
         <WhyChooseUs />
         <Contact />
       </main>

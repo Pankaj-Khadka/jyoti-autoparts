@@ -7,7 +7,7 @@ import guideImage from "../assets/products/valve-guides.webp";
 import gasketImage from "../assets/products/gasket.jpg";
 import kineticRodImage from "../assets/products/kinetic-rod-kit.jpeg";
 import blockImage from "../assets/products/block-piston-kit.webp";
-  
+import drumSleeveImage from "../assets/products/drum-sleeve.png";
 
 function Products() {
 
@@ -19,6 +19,7 @@ function Products() {
     Gasket: gasketImage,
     "Kinetic Rod": kineticRodImage,
     Block: blockImage,
+    "Drum Sleeve": drumSleeveImage
   };
 
 
